@@ -1,0 +1,40 @@
+@import url(../index.css);
+
+.formInput{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+input{
+    padding: 15px;
+    margin: 10px 0px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+
+
+label{
+    font-size: 14px;
+    color: gray;
+    text-align: left;
+}
+
+span{
+    font-size: 12px;
+    padding: 3px;
+    color: red;
+    display: none;
+}
+
+input:active {
+    border: 1px solid var(--primary-color);
+}
+
+input:invalid[focused="true"]{
+    border: 1px solid red;
+}
+
+input:invalid[focused="true"] ~ span{
+    display: block;
+}

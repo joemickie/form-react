@@ -1,0 +1,120 @@
+@import url(./index.css);
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: white;
+    padding: 4px;
+    border-bottom: 1px solid var(--faint-color);
+    margin-bottom: 4rem;
+}
+
+.app {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    background-position: center;
+}
+
+.app_center {
+    text-align: center;
+}
+
+.app_center > p {
+    font-size: 14px;
+    margin-bottom: 2rem;
+    color: lightslategrey;
+}
+
+.app_center p > span {
+    color: var(--primary-color)
+}
+
+.google_auth {
+    border: 1px solid var(--faint-color);
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+.google_auth img {
+    width: 20px;
+    height: 20px;
+    margin-right: 0.5rem;
+}
+
+.google_auth p {
+    font-size: 14px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.line {
+    flex: 1;
+    height: 1px;
+    background-color: var(--faint-color);
+}
+
+.container p {
+    margin: 0 10px;
+    font-size: 13px;
+    font-weight: bold;
+    color: var(--faint-color);
+}
+
+.name_container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.password_strength_checker {
+    background-color: white;
+    padding: 20px 30px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 2px 6px 0px;
+    margin-bottom: 1rem;
+}
+.strength {
+    background-color: var(--primary-color);
+    padding: 20px 30px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 2px 6px 0px;
+    margin-bottom: 1rem;
+}
+
+form{
+    background-color: white;
+    padding: 20px 30px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 2px 6px 0px;
+}
+
+h1{
+    color: rgb(77, 1, 77);
+    text-align: center;
+}
+
+button{
+    width: 100%;
+    height: 50px;
+    padding: 10px;
+    border: none;
+    background-color: rebeccapurple;
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 18px;
+    cursor: pointer;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
