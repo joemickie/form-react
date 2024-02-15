@@ -100,20 +100,6 @@
     color: white;
 }
 
-.strength > na {
-    width: calc(50% - 5px);
-    /* Set width to 50% minus padding */
-}
-
-.strength > div :nth-child(1) {
-    flex: 1;
-    /* Take remaining space */
-}
-.strength > div:last-child {
-    background-color: white;
-}
-
-
 form {
     background-color: white;
     padding: 20px 30px;
