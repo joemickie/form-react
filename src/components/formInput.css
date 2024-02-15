@@ -38,3 +38,9 @@ input:invalid[focused="true"]{
 input:invalid[focused="true"] ~ span{
     display: block;
 }
+
+.strength input:last-child {
+    /* Your styles for the last input element here */
+    border: 1px solid blue; /* Example border color */
+    background-color: white;
+}

@@ -23,13 +23,13 @@
     text-align: center;
 }
 
-.app_center > p {
+.app_center>p {
     font-size: 14px;
     margin-bottom: 2rem;
     color: lightslategrey;
 }
 
-.app_center p > span {
+.app_center p>span {
     color: var(--primary-color)
 }
 
@@ -83,28 +83,50 @@
     border-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 2px 6px 0px;
     margin-bottom: 1rem;
-}
-.strength {
-    background-color: var(--primary-color);
-    padding: 20px 30px;
-    border-radius: 10px;
-    box-shadow: rgba(0, 0, 0, 0.16) 0px 2px 6px 0px;
-    margin-bottom: 1rem;
+    font-size: x-small;
 }
 
-form{
+.strength {
+    background-color: var(--primary-color);
+    border-radius: 10px;
+    padding: 2px 5px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 2px 6px 0px;
+    margin-bottom: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    width: fit-content;
+    /* Allow items to wrap to the next line */
+    gap: 10px;
+    color: white;
+}
+
+.strength > na {
+    width: calc(50% - 5px);
+    /* Set width to 50% minus padding */
+}
+
+.strength > div :nth-child(1) {
+    flex: 1;
+    /* Take remaining space */
+}
+.strength > div:last-child {
+    background-color: white;
+}
+
+
+form {
     background-color: white;
     padding: 20px 30px;
     border-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 2px 6px 0px;
 }
 
-h1{
+h1 {
     color: rgb(77, 1, 77);
     text-align: center;
 }
 
-button{
+button {
     width: 100%;
     height: 50px;
     padding: 10px;
