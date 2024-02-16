@@ -35,7 +35,7 @@ const App = () => {
   const nameInputs = [
     {
       id: 1,
-      name: "lastName",
+      name: "firstName",
       type: "text",
       placeholder: "First Name",
       errorMessage:
@@ -108,7 +108,7 @@ const App = () => {
           <h3>Create account</h3>
           <p>Get up and running and start booking appointments.</p>
 
-          <form onSubmit={handleSubmit}>
+          <form onSubmit={handleSubmit} className="">
             <div className="google_auth">
               <img alt="google" src={require("./assets/google.png")}/>
               <p>Sign up with Google</p>
@@ -162,9 +162,9 @@ const App = () => {
                 />
               )
             })}
-            <button>Submit</button>
+            <button>Create Account</button>
           </form>
-          <p>Already have an account? <span>Log in</span></p>
+          <p className="footer-text">Already have an account? <span>Log in</span></p>
         </div>
       </div>
     </div>

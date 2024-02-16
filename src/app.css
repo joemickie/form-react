@@ -40,6 +40,7 @@
     align-items: center;
     justify-content: center;
     margin-bottom: 1rem;
+    padding: 10px;
 }
 
 .google_auth img {
@@ -84,6 +85,11 @@
     box-shadow: rgba(0, 0, 0, 0.16) 0px 2px 6px 0px;
     margin-bottom: 1rem;
     font-size: x-small;
+    text-align: left;
+}
+
+.password_strength_checker p {
+    margin-bottom: 10px;
 }
 
 .strength {
@@ -95,7 +101,6 @@
     display: flex;
     flex-wrap: wrap;
     width: fit-content;
-    /* Allow items to wrap to the next line */
     gap: 10px;
     color: white;
 }
@@ -105,6 +110,7 @@ form {
     padding: 20px 30px;
     border-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 2px 6px 0px;
+    width: 600px;
 }
 
 h1 {
@@ -125,4 +131,9 @@ button {
     cursor: pointer;
     margin-top: 15px;
     margin-bottom: 30px;
+}
+
+.footer-text {
+    display: inline-flex;
+    padding: 10px;
 }
